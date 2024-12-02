@@ -24,11 +24,15 @@ O repositório adota uma abordagem baseada em riscos para a gestão de armazenam
 * De forma manual, para casos de atualização do sistema, é possível fazer um backup diretamente pelo Payara6 veja Backup Manual Payara
 
 ** Pastas
-[1] Dump do Posgresql, database "dnvdb" com o usuário "dvnapp"
-[2] Backup da pasta /usr/local/payara6/glasfish/domains/domain1
-[3] Armazenamento de dados estão na subpasta /data/
+[1] Dump do Posgresql, database "dnvdb" com o usuário "dvnapp".
+
+[2] Backup da pasta /usr/local/payara6/glasfish/domains/domain1.
+
+[3] Armazenamento de dados estão na subpasta /data/.
 
 # Backup Manual Payara
+
+A segurança e infraestruta tecnológica está descrita no item 1 e 2 na página https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/repositorios-digitais
 
 ***Backup Payara Domain***
 <pre>
