@@ -30,9 +30,19 @@ O repositório adota uma abordagem baseada em riscos para a gestão de armazenam
 
 [3] Armazenamento de dados estão na subpasta /data/.
 
+# Seguranção da informação
+
+As informações sobre a segurança estão descirtos no item 2 da infraestrutura tecnológica na página https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/repositorios-digitais
+
 # Backup Manual Payara
 
 A segurança e infraestruta tecnológica está descrita no item 1 e 2 na página https://www.gov.br/ibict/pt-br/assuntos/informacao-cientifica/repositorios-digitais
+
+* No primeiro nível o backup fica armazenado no mesmo servidor
+* Os Snapshot:
+** Local no Host: Snapshots são armazenados no sistema de arquivos do servidor físico que hospeda a VM. Em diretórios separados da VM. (Snapshots temporários)
+** Rede Corporativa: Os snapshots são armazenados em um sistema de armazenamento em rede (NAS) ou em uma rede de área de armazenamento (SAN), que oferece maior capacidade, redundância e segurança. (Snapshots de longo prazo)
+** Snapshots com mais de 30 dias são eliminados.
 
 ***Backup Payara Domain***
 <pre>
