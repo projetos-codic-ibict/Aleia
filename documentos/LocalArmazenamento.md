@@ -12,7 +12,7 @@ Em dezembro de 2024, o disco estava com **27% de uso**:
 
  <pre>/dev/mapper/cydonia--vg-root 153.010.424 39157828 107098564 27% /</pre>
 
- #Gestão de Riscos e Integridade dos Dados
+ # Gestão de Riscos e Integridade dos Dados
 
 O repositório adota uma abordagem baseada em riscos para a gestão de armazenamento e dados, incluindo:
 
